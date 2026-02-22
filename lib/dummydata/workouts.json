@@ -1,0 +1,29 @@
+{
+  "workouts": [
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438",
+      "heading": "Full Body Blast",
+      "uuid": "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48",
+      "heading": "Leg Day Intensity",
+      "uuid": "b2c3d4e5-f6a7-4b6c-9d0e-1f2a3b4c5d6e"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1581009146145-b5ef03a7403f",
+      "heading": "Upper Body Strength",
+      "uuid": "c3d4e5f6-a7b8-4c7d-0e1f-2a3b4c5d6e7f"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1518611012118-2960c8bad847",
+      "heading": "Cardio HIIT",
+      "uuid": "d4e5f6a7-b8c9-4d8e-1f2a-3b4c5d6e7f8a"
+    },
+    {
+      "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b",
+      "heading": "Yoga & Mobility",
+      "uuid": "e5f6a7b8-c9d0-4e9f-2a3b-4c5d6e7f8a9b"
+    }
+  ]
+}
