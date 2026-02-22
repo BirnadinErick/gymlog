@@ -15,6 +15,7 @@ export function CancelWorkoutBtn() {
         toast.info("Session verworfen");
         router.push("/");
       }}
+      className="w-full"
     >
       <Trash2Icon />
       Session verwerfen
