@@ -1,6 +1,6 @@
-import { AvatarIcon } from "@/components/generic/avatar-icon";
-import { SelectTemplateButton } from "@/components/start-workout/select-template-button";
+import { CancelWorkoutBtn } from "@/components/start-workout/cancel-workout-btn";
 import WorkoutTemplate from "@/components/start-workout/workout-template";
+import workoutData from "@/lib/dummydata/workout-templates.json";
 
 export default function StartWorkout() {
   return (
@@ -15,9 +15,18 @@ export default function StartWorkout() {
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-y-4">
-          {Array.from({ length: 3 }).map((_, index) => (
-            <WorkoutTemplate key={index} />
+          {workoutData.workout_templates.map((template) => (
+            <WorkoutTemplate
+              key={template.uuid}
+              uuid={template.uuid}
+              name={template.name}
+              description={template.description}
+            />
           ))}
+        </div>
+
+        <div className="mt-8">
+          <CancelWorkoutBtn />
         </div>
       </main>
     </>

@@ -1,0 +1,59 @@
+{
+  "workout_templates": [
+    {
+      "uuid": "82d091a7-ab31-41f5-935a-af86c1c6a094",
+      "name": "Push",
+      "description": "Seitheben, Inclined shoulder...",
+      "exercises": [
+        "31cb6d01-2507-41f9-8af5-20449ff15032",
+        "5a3ced7c-1434-491d-be74-66cbe1b68977",
+        "95db6f3f-d5eb-4b25-b8f5-841d99ec5798",
+        "8dc725d1-b00b-4538-86d0-96e9a91fd4ab"
+      ]
+    },
+    {
+      "uuid": "82d091a7-ab31-41f5-935a-af86c1c6a093",
+      "name": "Pull",
+      "description": "Dead-Hang, Lat-Pulldown...",
+      "exercises": [
+        "31cb6d01-2507-41f9-8af5-20449ff15032",
+        "5a3ced7c-1434-491d-be74-66cbe1b68977",
+        "95db6f3f-d5eb-4b25-b8f5-841d99ec5798",
+        "8dc725d1-b00b-4538-86d0-96e9a91fd4ab"
+      ]
+    },
+    {
+      "uuid": "82d091a7-ab31-41f5-935a-af86c1c6a493",
+      "name": "Legs",
+      "description": "Squats, Leg-Press...",
+      "exercises": [
+        "31cb6d01-2507-41f9-8af5-20449ff15032",
+        "5a3ced7c-1434-491d-be74-66cbe1b68977",
+        "95db6f3f-d5eb-4b25-b8f5-841d99ec5798",
+        "8dc725d1-b00b-4538-86d0-96e9a91fd4ab"
+      ]
+    },
+    {
+      "uuid": "82d091a7-ab31-41f5-935a-af86c1c4a093",
+      "name": "Upper Body",
+      "description": "Seitheben, Inclined shoulder...",
+      "exercises": [
+        "31cb6d01-2507-41f9-8af5-20449ff15032",
+        "5a3ced7c-1434-491d-be74-66cbe1b68977",
+        "95db6f3f-d5eb-4b25-b8f5-841d99ec5798",
+        "8dc725d1-b00b-4538-86d0-96e9a91fd4ab"
+      ]
+    },
+    {
+      "uuid": "82d091a7-ab31-41f5-935a-af84c1c6a093",
+      "name": "Lower Body",
+      "description": "Squats, Leg-Press...",
+      "exercises": [
+        "31cb6d01-2507-41f9-8af5-20449ff15032",
+        "5a3ced7c-1434-491d-be74-66cbe1b68977",
+        "95db6f3f-d5eb-4b25-b8f5-841d99ec5798",
+        "8dc725d1-b00b-4538-86d0-96e9a91fd4ab"
+      ]
+    }
+  ]
+}
