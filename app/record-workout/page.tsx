@@ -1,5 +1,7 @@
 import WorkoutScreenLayout from "@/components/layouts/workout-screen-layout";
+import AddSetzBtn from "@/components/record-workout/add-sets-btn";
 import RecordWorkoutTopbar from "@/components/record-workout/topbar";
+import WorkoutBody from "@/components/record-workout/workout-body";
 import WorkoutCardHead from "@/components/record-workout/workout-card-head";
 import dummyWorkouts from "@/lib/dummydata/workouts.json";
 
@@ -17,6 +19,9 @@ export default async function RecordWorkoutPage(props: {
           heading={dummyWorkouts.workouts[0].heading}
           imageURL={dummyWorkouts.workouts[0].imageUrl}
         />
+
+        <WorkoutBody />
+        <AddSetzBtn />
       </div>
     </WorkoutScreenLayout>
   );
